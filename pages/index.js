@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
           className="lg:absolute object-cover lg:inset-y-0 lg:right-0 lg:h-full lg:w-full"
         />
       </div>
-        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d21a992f-078d-4d10-ae6c-3f74f8046457"> </script>
+        <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d21a992f-078d-4d10-ae6c-3f74f8046457"> </Script>
     </div>
   );
 }
